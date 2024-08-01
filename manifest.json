@@ -32,58 +32,6 @@
         "Built": "R 4.3.0; ; 2023-04-15 00:42:37 UTC; windows"
       }
     },
-    "BiocManager": {
-      "Source": "CRAN",
-      "Repository": "http://cran.rstudio.com",
-      "description": {
-        "Package": "BiocManager",
-        "Title": "Access the Bioconductor Project Package Repository",
-        "Description": "A convenient tool to install and update Bioconductor packages.",
-        "Version": "1.30.23",
-        "Authors@R": "c(\nperson(\"Martin\", \"Morgan\", email = \"martin.morgan@roswellpark.org\",\nrole = \"aut\", comment = c(ORCID = \"0000-0002-5874-8148\")),\nperson(\"Marcel\", \"Ramos\", email = \"marcel.ramos@roswellpark.org\",\nrole = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-3242-0582\")))",
-        "Imports": "utils",
-        "Suggests": "BiocVersion, BiocStyle, remotes, rmarkdown, testthat, withr,\ncurl, knitr",
-        "URL": "https://bioconductor.github.io/BiocManager/",
-        "BugReports": "https://github.com/Bioconductor/BiocManager/issues",
-        "VignetteBuilder": "knitr",
-        "License": "Artistic-2.0",
-        "Encoding": "UTF-8",
-        "RoxygenNote": "7.3.1",
-        "NeedsCompilation": "no",
-        "Packaged": "2024-05-03 17:19:41 UTC; mr148",
-        "Author": "Martin Morgan [aut] (<https://orcid.org/0000-0002-5874-8148>),\nMarcel Ramos [aut, cre] (<https://orcid.org/0000-0002-3242-0582>)",
-        "Maintainer": "Marcel Ramos <marcel.ramos@roswellpark.org>",
-        "Repository": "CRAN",
-        "Date/Publication": "2024-05-04 06:20:02 UTC",
-        "Built": "R 4.3.3; ; 2024-07-28 00:42:50 UTC; windows"
-      }
-    },
-    "BiocVersion": {
-      "Source": "Bioconductor",
-      "Repository": "https://bioconductor.org/packages/3.18/bioc",
-      "description": {
-        "Package": "BiocVersion",
-        "Version": "3.18.1",
-        "Title": "Set the appropriate version of Bioconductor packages",
-        "Description": "This package provides repository information for the appropriate\nversion of Bioconductor.",
-        "Authors@R": "c(\nperson(\"Martin\", \"Morgan\", email = \"martin.morgan@roswellpark.org\",\nrole = \"aut\"),\nperson(\"Marcel\", \"Ramos\", email = \"marcel.ramos@roswellpark.org\",\nrole = \"ctb\"),\nperson(\"Bioconductor\", \"Package Maintainer\",\nemail  = \"maintainer@bioconductor.org\",\nrole = c(\"ctb\", \"cre\")))",
-        "biocViews": "Infrastructure",
-        "Depends": "R (>= 4.3.0)",
-        "License": "Artistic-2.0",
-        "Encoding": "UTF-8",
-        "RoxygenNote": "6.0.1",
-        "git_url": "https://git.bioconductor.org/packages/BiocVersion",
-        "git_branch": "RELEASE_3_18",
-        "git_last_commit": "70680b8",
-        "git_last_commit_date": "2023-11-15",
-        "Date/Publication": "2023-11-15",
-        "NeedsCompilation": "no",
-        "Packaged": "2023-11-15 22:20:45 UTC; biocbuild",
-        "Author": "Martin Morgan [aut],\nMarcel Ramos [ctb],\nBioconductor Package Maintainer [ctb, cre]",
-        "Maintainer": "Bioconductor Package Maintainer <maintainer@bioconductor.org>",
-        "Built": "R 4.3.2; ; 2023-11-16 13:41:25 UTC; windows"
-      }
-    },
     "DBI": {
       "Source": "CRAN",
       "Repository": "http://cran.rstudio.com",
@@ -2460,44 +2408,6 @@
         "Date/Publication": "2022-12-20 10:00:13 UTC",
         "Built": "R 4.3.1; x86_64-w64-mingw32; 2023-07-15 00:27:16 UTC; windows",
         "Archs": "x64"
-      }
-    },
-    "jamba": {
-      "Source": "github",
-      "Repository": null,
-      "description": {
-        "Package": "jamba",
-        "Title": "Jam Base Methods",
-        "Version": "0.0.101.900",
-        "Authors@R": "person(given=\"James M.\", family=\"Ward\",\nemail=\"jmw86069@gmail.com\", role=c(\"aut\", \"cre\"))",
-        "Description": "Jam Base methods. Efficient alphanumeric sort for vector,\nlist, data.frame. Import/export wrappers to Excel xlsx files.\nEfficient operations for row-wise paste, paste or sort of lists.\nEnhanced plot smooth scatter, plot density, image by color.\nConvenient get\nmixedSort, mixedSortDF: efficient alphanumeric sort.\njargs: formatted, colorized function arguments.\nwriteOpenxlsx, readOpenxlsx: Excel export with clean formatting by column.\npasteByRow, pasteByRowOrdered: data.frame to vector, optionally as factor.\ncPaste, cPasteS, cPasteU: efficient paste for list of vectors, optional\nsort and unique.\nsdim, ssdim: formatted summary of dimensions for S3 objects, lists,\nS4 objects by slot, or nested lists.\nvigrep, vgrep, provigrep: value-return, case-insensitive grep,\nprogressive pattern grep.\nplotSmoothScatter: smooth scatter plot with finer detail.\nplotPolygonDensity, plotRidges: plot one or more densities.\nimageDefault: rasterized image plots.\nimageByColors: data.frame to color image.\ngetColorRamp, showColors: versatile color palettes, and display.\nrbindList: list to data.frame without filling empty cells.\nmakeNames, nameVector: configurable unique names assigned to vectors.\nprintDebug: colorized console messaging.",
-        "biocViews": "",
-        "Depends": "R (>= 3.0.0)",
-        "Imports": "colorspace, KernSmooth, farver, colorspace, grDevices",
-        "Suggests": "knitr, rmarkdown, RColorBrewer, viridisLite, crayon,\nmatrixStats, S4Vectors, openxlsx, ComplexHeatmap, testthat (>=\n3.0.0)",
-        "License": "MIT + file LICENSE",
-        "Encoding": "UTF-8",
-        "URL": "http://github.com/jmw86069/jamba",
-        "BugReports": "http://github.com/jmw86069/jamba/issues",
-        "VignetteBuilder": "knitr",
-        "Roxygen": "list(markdown = TRUE)",
-        "RoxygenNote": "7.2.3",
-        "Config/testthat/edition": "3",
-        "RemoteType": "github",
-        "RemoteHost": "api.github.com",
-        "RemoteRepo": "jamba",
-        "RemoteUsername": "jmw86069",
-        "RemoteRef": "HEAD",
-        "RemoteSha": "613b12f394498a02737b30c137b457a6521e4d74",
-        "GithubRepo": "jamba",
-        "GithubUsername": "jmw86069",
-        "GithubRef": "HEAD",
-        "GithubSHA1": "613b12f394498a02737b30c137b457a6521e4d74",
-        "NeedsCompilation": "no",
-        "Packaged": "2024-07-30 18:22:53 UTC; kvaled1",
-        "Author": "James M. Ward [aut, cre]",
-        "Maintainer": "James M. Ward <jmw86069@gmail.com>",
-        "Built": "R 4.3.3; ; 2024-07-30 18:22:55 UTC; windows"
       }
     },
     "janitor": {
@@ -4918,10 +4828,10 @@
       "checksum": "8d385c2c70934d090e9a454ec472adbf"
     },
     "color_pie.R": {
-      "checksum": "faada28626614a6c31c3cc4e2c7ae7b4"
+      "checksum": "a18e4c1fb101c59a2a3f66a7b6747c14"
     },
     "renv.lock": {
-      "checksum": "48a0ea13d697fa5d594ac1ec15da95a5"
+      "checksum": "c42832e21871fe6ccdd84fcb69aec82f"
     }
   },
   "users": null
