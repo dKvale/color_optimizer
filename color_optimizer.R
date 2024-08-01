@@ -17,7 +17,7 @@ library(shiny)
 library(tidyverse)
 library(colorspace)
 library(janitor)
-library(chroma)
+#library(chroma)
 library(gt)
 
 #library(BiocManager)
@@ -75,9 +75,9 @@ Color_Deets <- function(clrs, df) {
   return(df)
 }
 
-Optimize_Color_Palette <- function(clrs,prcnt_transp,min_luminance,max_luminance) {
+Optimize_Color_Palette <- function(clrs, prcnt_transp, min_luminance, max_luminance) {
   ##This function finds the optimal luminance (I keep calling it contrast) of the hex values given by the user
-  clrs = Filter(function(x) grepl("#", x), clrs)
+  clrs <- Filter(function(x) grepl("#", x), clrs)
   prcnt_transp <- as.numeric(prcnt_transp)
   min_luminance <- as.numeric(min_luminance)
   max_luminance <- as.numeric(max_luminance)
@@ -122,11 +122,10 @@ Optimize_Color_Palette <- function(clrs,prcnt_transp,min_luminance,max_luminance
   luminance_list <- c()
 
   for(c in clrs) {
-    luminance_list <- c(luminance_list,luminance(c))
+    luminance_list <- c(luminance_list, luminance(c))
   }
 
-  # Determine exiting luminance
-
+  # Determine existing luminance
   max_lum1<- max(luminance_list)
   min_lum1<- min(luminance_list)
   inrvl_lum1 <- round((max_lum1-min_lum1)/number_colors,4)
@@ -134,7 +133,7 @@ Optimize_Color_Palette <- function(clrs,prcnt_transp,min_luminance,max_luminance
   df_lum <- data.frame(hexclr = clrs,
                        lums = luminance_list) %>%
     mutate(sort_lums = rank(lums))   %>%
-    mutate(updated_lum = seq(min_luminance,max_luminance,abs(min_luminance-max_luminance)/(length(luminance_list)-1))[sort_lums]) %>%
+    mutate(updated_lum = seq(min_luminance, max_luminance, abs(min_luminance-max_luminance)/(length(luminance_list)-1))[sort_lums]) %>%
     mutate(adjust_lum_val = updated_lum - round(lums,4))
 
   # Update the color list
@@ -142,7 +141,7 @@ Optimize_Color_Palette <- function(clrs,prcnt_transp,min_luminance,max_luminance
 
   for(c in clrs){
 
-    new_clr = adjust_luminance(c,df_lum$adjust_lum_val[df_lum$hexclr==c])
+    new_clr = adjust_luminance(c, df_lum$adjust_lum_val[df_lum$hexclr==c])
 
     clrs_lum_fixed = c(clrs_lum_fixed,new_clr)
   }
