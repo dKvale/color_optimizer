@@ -1,3 +1,14 @@
+luminance <- function(hex_color) {
+  # Convert hex to RGB
+  rgb_values <- col2rgb(hex_color) / 255
+
+  # Apply the luminance formula
+  rgb_values <- ifelse(rgb_values <= 0.03928, rgb_values / 12.92, ((rgb_values + 0.055) / 1.055) ^ 2.4)
+  luminance <- 0.2126 * rgb_values[1] + 0.7152 * rgb_values[2] + 0.0722 * rgb_values[3]
+
+  return(luminance)
+}
+
 deg2rad <- function(x, ...) {
   ## Convert degrees to radians, using pi/2 as 90 degrees
   x * (pi / 180);
