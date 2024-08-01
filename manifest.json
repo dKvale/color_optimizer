@@ -203,31 +203,6 @@
         "Built": "R 4.3.1; ; 2023-10-20 01:43:22 UTC; windows"
       }
     },
-    "GlobalOptions": {
-      "Source": "CRAN",
-      "Repository": "http://cran.rstudio.com",
-      "description": {
-        "Package": "GlobalOptions",
-        "Type": "Package",
-        "Title": "Generate Functions to Get or Set Global Options",
-        "Version": "0.1.2",
-        "Date": "2020-06-06",
-        "Author": "Zuguang Gu",
-        "Maintainer": "Zuguang Gu <z.gu@dkfz.de>",
-        "Depends": "R (>= 3.3.0), methods",
-        "Imports": "utils",
-        "Suggests": "testthat (>= 1.0.0), knitr, markdown, GetoptLong",
-        "VignetteBuilder": "knitr",
-        "Description": "It provides more configurations on the option values such as validation\nand filtering on the values, making options invisible or private.",
-        "URL": "https://github.com/jokergoo/GlobalOptions",
-        "License": "MIT + file LICENSE",
-        "Repository": "CRAN",
-        "NeedsCompilation": "no",
-        "Packaged": "2020-06-10 12:34:07 UTC; jokergoo",
-        "Date/Publication": "2020-06-10 20:00:03 UTC",
-        "Built": "R 4.3.3; ; 2024-07-28 00:43:49 UTC; windows"
-      }
-    },
     "KernSmooth": {
       "Source": "CRAN",
       "Repository": "http://cran.rstudio.com",
@@ -1000,32 +975,6 @@
         "Built": "R 4.3.3; ; 2024-06-21 16:40:53 UTC; windows"
       }
     },
-    "circlize": {
-      "Source": "CRAN",
-      "Repository": "http://cran.rstudio.com",
-      "description": {
-        "Package": "circlize",
-        "Type": "Package",
-        "Title": "Circular Visualization",
-        "Version": "0.4.16",
-        "Date": "2024-02-20",
-        "Authors@R": "person(\"Zuguang\", \"Gu\", email = \"z.gu@dkfz.de\", role = c(\"aut\", \"cre\"),\ncomment = c('ORCID'=\"0000-0002-7395-8709\"))",
-        "Depends": "R (>= 4.0.0), graphics",
-        "Imports": "GlobalOptions (>= 0.1.2), shape, grDevices, utils, stats,\ncolorspace, methods, grid",
-        "Suggests": "knitr, dendextend (>= 1.0.1), ComplexHeatmap (>= 2.0.0),\ngridBase, png, markdown, bezier, covr, rmarkdown",
-        "VignetteBuilder": "knitr",
-        "Description": "Circular layout is an efficient way for the visualization of huge\namounts of information. Here this package provides an implementation\nof circular layout generation in R as well as an enhancement of available\nsoftware. The flexibility of the package is based on the usage of low-level\ngraphics functions such that self-defined high-level graphics can be easily\nimplemented by users for specific purposes. Together with the seamless\nconnection between the powerful computational and visual environment in R,\nit gives users more convenience and freedom to design figures for\nbetter understanding complex patterns behind multiple dimensional data.\nThe package is described in Gu et al. 2014 <doi:10.1093/bioinformatics/btu393>.",
-        "URL": "https://github.com/jokergoo/circlize,\nhttps://jokergoo.github.io/circlize_book/book/",
-        "License": "MIT + file LICENSE",
-        "NeedsCompilation": "no",
-        "Packaged": "2024-02-20 08:13:23 UTC; guz",
-        "Author": "Zuguang Gu [aut, cre] (<https://orcid.org/0000-0002-7395-8709>)",
-        "Maintainer": "Zuguang Gu <z.gu@dkfz.de>",
-        "Repository": "CRAN",
-        "Date/Publication": "2024-02-20 10:30:02 UTC",
-        "Built": "R 4.3.3; ; 2024-07-28 01:20:58 UTC; windows"
-      }
-    },
     "class": {
       "Source": "CRAN",
       "Repository": "http://cran.rstudio.com",
@@ -1137,44 +1086,6 @@
         "Repository": "CRAN",
         "Date/Publication": "2022-02-22 00:58:45 UTC",
         "Built": "R 4.3.1; ; 2023-07-15 00:27:16 UTC; windows"
-      }
-    },
-    "colorjam": {
-      "Source": "github",
-      "Repository": null,
-      "description": {
-        "Package": "colorjam",
-        "Type": "Package",
-        "Title": "Jam Color manipulation functions",
-        "Version": "0.0.28.900",
-        "Authors@R": "person(given=\"James M.\", family=\"Ward\",\nemail=\"jmw86069@gmail.com\", role=c(\"aut\", \"cre\"))",
-        "Maintainer": "James M. Ward <jmw86069@gmail.com>",
-        "Description": "Jam Color manipulation functions, rainbow categorical colors\nwith varying luminance and chroma, convert vector to colors,\nre-usable named vector of colors for consistency across plots,\nconvert data.frame to color, subsetColors.",
-        "Depends": "R (>= 3.0.0), jamba (>= 0.0.82.900)",
-        "Imports": "colorspace, circlize, cli, dichromat",
-        "Suggests": "ggplot2, shiny",
-        "License": "MIT + file LICENSE",
-        "Encoding": "UTF-8",
-        "LazyData": "true",
-        "Remotes": "github::jmw86069/jamba",
-        "URL": "http://github.com/jmw86069/colorjam",
-        "BugReports": "http://github.com/jmw86069/colorjam/issues",
-        "Roxygen": "list(markdown = TRUE)",
-        "RoxygenNote": "7.2.3",
-        "RemoteType": "github",
-        "RemoteHost": "api.github.com",
-        "RemoteRepo": "colorjam",
-        "RemoteUsername": "jmw86069",
-        "RemoteRef": "HEAD",
-        "RemoteSha": "5c2e6cbfca8f1fecffcb4d526a4af8a00c07c0a1",
-        "GithubRepo": "colorjam",
-        "GithubUsername": "jmw86069",
-        "GithubRef": "HEAD",
-        "GithubSHA1": "5c2e6cbfca8f1fecffcb4d526a4af8a00c07c0a1",
-        "NeedsCompilation": "no",
-        "Packaged": "2024-07-30 18:51:15 UTC; kvaled1",
-        "Author": "James M. Ward [aut, cre]",
-        "Built": "R 4.3.3; ; 2024-07-30 18:51:17 UTC; windows"
       }
     },
     "colorspace": {
@@ -4145,26 +4056,6 @@
         "Built": "R 4.3.1; ; 2023-07-15 01:55:52 UTC; windows"
       }
     },
-    "shape": {
-      "Source": "CRAN",
-      "Repository": "http://cran.rstudio.com",
-      "description": {
-        "Package": "shape",
-        "Version": "1.4.6",
-        "Title": "Functions for Plotting Graphical Shapes, Colors",
-        "Author": "Karline Soetaert <karline.soetaert@nioz.nl>",
-        "Maintainer": "Karline Soetaert <karline.soetaert@nioz.nl>",
-        "Depends": "R (>= 2.01)",
-        "Imports": "stats, graphics, grDevices",
-        "Description": "Functions for plotting graphical shapes\nsuch as ellipses, circles, cylinders, arrows, ...",
-        "License": "GPL (>= 3)",
-        "NeedsCompilation": "no",
-        "Packaged": "2021-05-19 06:02:02 UTC; karlines",
-        "Repository": "CRAN",
-        "Date/Publication": "2021-05-19 07:20:03 UTC",
-        "Built": "R 4.3.0; ; 2023-04-15 00:42:14 UTC; windows"
-      }
-    },
     "shiny": {
       "Source": "CRAN",
       "Repository": "http://cran.rstudio.com",
@@ -5024,10 +4915,13 @@
   },
   "files": {
     "app.R": {
-      "checksum": "be0cf81360e91913176a91179364b8ed"
+      "checksum": "8d385c2c70934d090e9a454ec472adbf"
+    },
+    "color_pie.R": {
+      "checksum": "faada28626614a6c31c3cc4e2c7ae7b4"
     },
     "renv.lock": {
-      "checksum": "1386c5f31829974c007d480e81f5334a"
+      "checksum": "48a0ea13d697fa5d594ac1ec15da95a5"
     }
   },
   "users": null
