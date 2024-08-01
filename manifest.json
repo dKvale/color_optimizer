@@ -887,42 +887,6 @@
         "Built": "R 4.3.1; ; 2023-07-15 02:04:24 UTC; windows"
       }
     },
-    "chroma": {
-      "Source": "github",
-      "Repository": null,
-      "description": {
-        "Package": "chroma",
-        "Type": "Package",
-        "Title": "Parse and Manipulate Colors, Create Perceptually Correct Color\nPalettes",
-        "Version": "0.2",
-        "Date": "2016-02-19",
-        "Authors@R": "c(person(\"Jean-Olivier\", \"Irisson\", email=\"irisson@normalesup.org\", role=c(\"aut\", \"cre\")), person(\"Gregor\", \"Aisch\", role=\"aut\"))",
-        "Description": "This package is mostly an R wrapper for the excellent chroma.js library by Gregor Aisch. It allows to parse colors specified in many forms (RGB, HSL, HSV, HCL, etc.), manipulate those colors (saturate, darken, etc.), and create color palettes adequate for human perception (i.e. in the HCL color model). In addition it provides access to a few pre-built color palettes that have been tested perceptually (cubehelix, ColorBrewer, viridis, etc.) and/or are useful (ETOPO1 maps, Wikipedia topographic maps, light wavelentgh, etc.).",
-        "License": "GPL-3",
-        "LazyData": "TRUE",
-        "Encoding": "UTF-8",
-        "Depends": "R (>= 2.10)",
-        "Imports": "V8, grid, grDevices, scales, stringr, stats",
-        "RoxygenNote": "7.2.1",
-        "Suggests": "testthat, ggplot2, knitr, rmarkdown, colorspace",
-        "VignetteBuilder": "knitr",
-        "RemoteType": "github",
-        "RemoteHost": "api.github.com",
-        "RemoteRepo": "chroma",
-        "RemoteUsername": "jiho",
-        "RemoteRef": "HEAD",
-        "RemoteSha": "f098464515954b1a35106735d510c5ef8f3d7818",
-        "GithubRepo": "chroma",
-        "GithubUsername": "jiho",
-        "GithubRef": "HEAD",
-        "GithubSHA1": "f098464515954b1a35106735d510c5ef8f3d7818",
-        "NeedsCompilation": "no",
-        "Packaged": "2024-06-21 16:40:52 UTC; kvaled1",
-        "Author": "Jean-Olivier Irisson [aut, cre],\nGregor Aisch [aut]",
-        "Maintainer": "Jean-Olivier Irisson <irisson@normalesup.org>",
-        "Built": "R 4.3.3; ; 2024-06-21 16:40:53 UTC; windows"
-      }
-    },
     "class": {
       "Source": "CRAN",
       "Repository": "http://cran.rstudio.com",
@@ -4825,13 +4789,13 @@
   },
   "files": {
     "app.R": {
-      "checksum": "8d385c2c70934d090e9a454ec472adbf"
+      "checksum": "86b4792b73c9d528258426150d129b61"
     },
     "color_pie.R": {
-      "checksum": "a18e4c1fb101c59a2a3f66a7b6747c14"
+      "checksum": "94da05c3d919333f36a52d7d0a50e362"
     },
     "renv.lock": {
-      "checksum": "c42832e21871fe6ccdd84fcb69aec82f"
+      "checksum": "8ff3d16e011f35a4143f6d3e8865319c"
     }
   },
   "users": null
