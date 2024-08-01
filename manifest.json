@@ -32,6 +32,58 @@
         "Built": "R 4.3.0; ; 2023-04-15 00:42:37 UTC; windows"
       }
     },
+    "BiocManager": {
+      "Source": "CRAN",
+      "Repository": "http://cran.rstudio.com",
+      "description": {
+        "Package": "BiocManager",
+        "Title": "Access the Bioconductor Project Package Repository",
+        "Description": "A convenient tool to install and update Bioconductor packages.",
+        "Version": "1.30.23",
+        "Authors@R": "c(\nperson(\"Martin\", \"Morgan\", email = \"martin.morgan@roswellpark.org\",\nrole = \"aut\", comment = c(ORCID = \"0000-0002-5874-8148\")),\nperson(\"Marcel\", \"Ramos\", email = \"marcel.ramos@roswellpark.org\",\nrole = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-3242-0582\")))",
+        "Imports": "utils",
+        "Suggests": "BiocVersion, BiocStyle, remotes, rmarkdown, testthat, withr,\ncurl, knitr",
+        "URL": "https://bioconductor.github.io/BiocManager/",
+        "BugReports": "https://github.com/Bioconductor/BiocManager/issues",
+        "VignetteBuilder": "knitr",
+        "License": "Artistic-2.0",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-05-03 17:19:41 UTC; mr148",
+        "Author": "Martin Morgan [aut] (<https://orcid.org/0000-0002-5874-8148>),\nMarcel Ramos [aut, cre] (<https://orcid.org/0000-0002-3242-0582>)",
+        "Maintainer": "Marcel Ramos <marcel.ramos@roswellpark.org>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-05-04 06:20:02 UTC",
+        "Built": "R 4.3.3; ; 2024-07-28 00:42:50 UTC; windows"
+      }
+    },
+    "BiocVersion": {
+      "Source": "Bioconductor",
+      "Repository": "https://bioconductor.org/packages/3.18/bioc",
+      "description": {
+        "Package": "BiocVersion",
+        "Version": "3.18.1",
+        "Title": "Set the appropriate version of Bioconductor packages",
+        "Description": "This package provides repository information for the appropriate\nversion of Bioconductor.",
+        "Authors@R": "c(\nperson(\"Martin\", \"Morgan\", email = \"martin.morgan@roswellpark.org\",\nrole = \"aut\"),\nperson(\"Marcel\", \"Ramos\", email = \"marcel.ramos@roswellpark.org\",\nrole = \"ctb\"),\nperson(\"Bioconductor\", \"Package Maintainer\",\nemail  = \"maintainer@bioconductor.org\",\nrole = c(\"ctb\", \"cre\")))",
+        "biocViews": "Infrastructure",
+        "Depends": "R (>= 4.3.0)",
+        "License": "Artistic-2.0",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "6.0.1",
+        "git_url": "https://git.bioconductor.org/packages/BiocVersion",
+        "git_branch": "RELEASE_3_18",
+        "git_last_commit": "70680b8",
+        "git_last_commit_date": "2023-11-15",
+        "Date/Publication": "2023-11-15",
+        "NeedsCompilation": "no",
+        "Packaged": "2023-11-15 22:20:45 UTC; biocbuild",
+        "Author": "Martin Morgan [aut],\nMarcel Ramos [ctb],\nBioconductor Package Maintainer [ctb, cre]",
+        "Maintainer": "Bioconductor Package Maintainer <maintainer@bioconductor.org>",
+        "Built": "R 4.3.2; ; 2023-11-16 13:41:25 UTC; windows"
+      }
+    },
     "DBI": {
       "Source": "CRAN",
       "Repository": "http://cran.rstudio.com",
@@ -149,6 +201,31 @@
         "Repository": "CRAN",
         "Date/Publication": "2022-09-25 23:40:02 UTC",
         "Built": "R 4.3.1; ; 2023-10-20 01:43:22 UTC; windows"
+      }
+    },
+    "GlobalOptions": {
+      "Source": "CRAN",
+      "Repository": "http://cran.rstudio.com",
+      "description": {
+        "Package": "GlobalOptions",
+        "Type": "Package",
+        "Title": "Generate Functions to Get or Set Global Options",
+        "Version": "0.1.2",
+        "Date": "2020-06-06",
+        "Author": "Zuguang Gu",
+        "Maintainer": "Zuguang Gu <z.gu@dkfz.de>",
+        "Depends": "R (>= 3.3.0), methods",
+        "Imports": "utils",
+        "Suggests": "testthat (>= 1.0.0), knitr, markdown, GetoptLong",
+        "VignetteBuilder": "knitr",
+        "Description": "It provides more configurations on the option values such as validation\nand filtering on the values, making options invisible or private.",
+        "URL": "https://github.com/jokergoo/GlobalOptions",
+        "License": "MIT + file LICENSE",
+        "Repository": "CRAN",
+        "NeedsCompilation": "no",
+        "Packaged": "2020-06-10 12:34:07 UTC; jokergoo",
+        "Date/Publication": "2020-06-10 20:00:03 UTC",
+        "Built": "R 4.3.3; ; 2024-07-28 00:43:49 UTC; windows"
       }
     },
     "KernSmooth": {
@@ -771,12 +848,12 @@
       }
     },
     "bslib": {
-      "Source": "github",
-      "Repository": null,
+      "Source": "CRAN",
+      "Repository": "http://cran.rstudio.com",
       "description": {
         "Package": "bslib",
         "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
-        "Version": "0.7.0.9000",
+        "Version": "0.8.0",
         "Authors@R": "c(\nperson(\"Carson\", \"Sievert\", , \"carson@posit.co\", role = c(\"aut\", \"cre\"),\ncomment = c(ORCID = \"0000-0002-4958-2844\")),\nperson(\"Joe\", \"Cheng\", , \"joe@posit.co\", role = \"aut\"),\nperson(\"Garrick\", \"Aden-Buie\", , \"garrick@posit.co\", role = \"aut\",\ncomment = c(ORCID = \"0000-0002-7111-0077\")),\nperson(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")),\nperson(, \"Bootstrap contributors\", role = \"ctb\",\ncomment = \"Bootstrap library\"),\nperson(, \"Twitter, Inc\", role = \"cph\",\ncomment = \"Bootstrap library\"),\nperson(\"Javi\", \"Aguilar\", role = c(\"ctb\", \"cph\"),\ncomment = \"Bootstrap colorpicker library\"),\nperson(\"Thomas\", \"Park\", role = c(\"ctb\", \"cph\"),\ncomment = \"Bootswatch library\"),\nperson(, \"PayPal\", role = c(\"ctb\", \"cph\"),\ncomment = \"Bootstrap accessibility plugin\")\n)",
         "Description": "Simplifies custom 'CSS' styling of both 'shiny' and\n'rmarkdown' via 'Bootstrap' 'Sass'. Supports 'Bootstrap' 3, 4 and 5 as\nwell as their various 'Bootswatch' themes. An interactive widget is\nalso provided for previewing themes in real time.",
         "License": "MIT + file LICENSE",
@@ -784,7 +861,7 @@
         "BugReports": "https://github.com/rstudio/bslib/issues",
         "Depends": "R (>= 2.10)",
         "Imports": "base64enc, cachem, fastmap (>= 1.1.1), grDevices, htmltools\n(>= 0.5.8), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise\n(>= 2.0.1), mime, rlang, sass (>= 0.4.9)",
-        "Suggests": "bsicons, curl, fontawesome, future, ggplot2, knitr, magrittr,\nrappdirs, rmarkdown (>= 2.7), shiny (>= 1.8.1), testthat,\nthematic, withr",
+        "Suggests": "bsicons, curl, fontawesome, future, ggplot2, knitr, magrittr,\nrappdirs, rmarkdown (>= 2.7), shiny (> 1.8.1), testthat,\nthematic, withr",
         "Config/Needs/deploy": "BH, chiflights22, colourpicker, commonmark, cpp11,\ncpsievert/chiflights22, cpsievert/histoslider, dplyr, DT,\nggplot2, ggridges, gt, hexbin, histoslider, htmlwidgets,\nlattice, leaflet, lubridate, modelr, plotly, reactable,\nreshape2, rprojroot, rsconnect, rstudio/shiny, scales, styler,\ntibble",
         "Config/Needs/routine": "chromote, desc, renv",
         "Config/Needs/website": "brio, crosstalk, dplyr, DT, ggplot2, glue,\nhtmlwidgets, leaflet, lorem, palmerpenguins, plotly, purrr,\nrprojroot, rstudio/htmltools, scales, stringr, tidyr, webshot2",
@@ -792,24 +869,15 @@
         "Config/testthat/parallel": "true",
         "Config/testthat/start-first": "zzzz-bs-sass, fonts, zzz-precompile,\ntheme-*, rmd-*",
         "Encoding": "UTF-8",
-        "Roxygen": "list(markdown = TRUE)",
-        "RoxygenNote": "7.3.1",
+        "RoxygenNote": "7.3.2",
         "Collate": "'accordion.R' 'breakpoints.R' 'bs-current-theme.R'\n'bs-dependencies.R' 'bs-global.R' 'bs-remove.R'\n'bs-theme-layers.R' 'bs-theme-preset-bootswatch.R'\n'bs-theme-preset-builtin.R' 'bs-theme-preset.R' 'utils.R'\n'bs-theme-preview.R' 'bs-theme-update.R' 'bs-theme.R'\n'bslib-package.R' 'buttons.R' 'card.R' 'deprecated.R' 'files.R'\n'fill.R' 'imports.R' 'input-dark-mode.R' 'input-switch.R'\n'layout.R' 'nav-items.R' 'nav-update.R' 'navs-legacy.R'\n'navs.R' 'onLoad.R' 'page.R' 'popover.R' 'precompiled.R'\n'print.R' 'shiny-devmode.R' 'sidebar.R' 'staticimports.R'\n'tooltip.R' 'utils-deps.R' 'utils-shiny.R' 'utils-tags.R'\n'value-box.R' 'version-default.R' 'versions.R'",
-        "RemoteType": "github",
-        "RemoteHost": "api.github.com",
-        "RemoteRepo": "bslib",
-        "RemoteUsername": "rstudio",
-        "RemoteRef": "HEAD",
-        "RemoteSha": "2c87d0c8753d003fef66858235ead8c9206aefa9",
-        "GithubRepo": "bslib",
-        "GithubUsername": "rstudio",
-        "GithubRef": "HEAD",
-        "GithubSHA1": "2c87d0c8753d003fef66858235ead8c9206aefa9",
         "NeedsCompilation": "no",
-        "Packaged": "2024-04-22 14:35:17 UTC; kvaled1",
+        "Packaged": "2024-07-29 18:49:12 UTC; cpsievert",
         "Author": "Carson Sievert [aut, cre] (<https://orcid.org/0000-0002-4958-2844>),\nJoe Cheng [aut],\nGarrick Aden-Buie [aut] (<https://orcid.org/0000-0002-7111-0077>),\nPosit Software, PBC [cph, fnd],\nBootstrap contributors [ctb] (Bootstrap library),\nTwitter, Inc [cph] (Bootstrap library),\nJavi Aguilar [ctb, cph] (Bootstrap colorpicker library),\nThomas Park [ctb, cph] (Bootswatch library),\nPayPal [ctb, cph] (Bootstrap accessibility plugin)",
         "Maintainer": "Carson Sievert <carson@posit.co>",
-        "Built": "R 4.3.3; ; 2024-04-22 14:35:24 UTC; windows"
+        "Repository": "CRAN",
+        "Date/Publication": "2024-07-29 19:20:02 UTC",
+        "Built": "R 4.3.3; ; 2024-07-30 23:50:55 UTC; windows"
       }
     },
     "cachem": {
@@ -932,6 +1000,32 @@
         "Built": "R 4.3.3; ; 2024-06-21 16:40:53 UTC; windows"
       }
     },
+    "circlize": {
+      "Source": "CRAN",
+      "Repository": "http://cran.rstudio.com",
+      "description": {
+        "Package": "circlize",
+        "Type": "Package",
+        "Title": "Circular Visualization",
+        "Version": "0.4.16",
+        "Date": "2024-02-20",
+        "Authors@R": "person(\"Zuguang\", \"Gu\", email = \"z.gu@dkfz.de\", role = c(\"aut\", \"cre\"),\ncomment = c('ORCID'=\"0000-0002-7395-8709\"))",
+        "Depends": "R (>= 4.0.0), graphics",
+        "Imports": "GlobalOptions (>= 0.1.2), shape, grDevices, utils, stats,\ncolorspace, methods, grid",
+        "Suggests": "knitr, dendextend (>= 1.0.1), ComplexHeatmap (>= 2.0.0),\ngridBase, png, markdown, bezier, covr, rmarkdown",
+        "VignetteBuilder": "knitr",
+        "Description": "Circular layout is an efficient way for the visualization of huge\namounts of information. Here this package provides an implementation\nof circular layout generation in R as well as an enhancement of available\nsoftware. The flexibility of the package is based on the usage of low-level\ngraphics functions such that self-defined high-level graphics can be easily\nimplemented by users for specific purposes. Together with the seamless\nconnection between the powerful computational and visual environment in R,\nit gives users more convenience and freedom to design figures for\nbetter understanding complex patterns behind multiple dimensional data.\nThe package is described in Gu et al. 2014 <doi:10.1093/bioinformatics/btu393>.",
+        "URL": "https://github.com/jokergoo/circlize,\nhttps://jokergoo.github.io/circlize_book/book/",
+        "License": "MIT + file LICENSE",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-02-20 08:13:23 UTC; guz",
+        "Author": "Zuguang Gu [aut, cre] (<https://orcid.org/0000-0002-7395-8709>)",
+        "Maintainer": "Zuguang Gu <z.gu@dkfz.de>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-02-20 10:30:02 UTC",
+        "Built": "R 4.3.3; ; 2024-07-28 01:20:58 UTC; windows"
+      }
+    },
     "class": {
       "Source": "CRAN",
       "Repository": "http://cran.rstudio.com",
@@ -1043,6 +1137,44 @@
         "Repository": "CRAN",
         "Date/Publication": "2022-02-22 00:58:45 UTC",
         "Built": "R 4.3.1; ; 2023-07-15 00:27:16 UTC; windows"
+      }
+    },
+    "colorjam": {
+      "Source": "github",
+      "Repository": null,
+      "description": {
+        "Package": "colorjam",
+        "Type": "Package",
+        "Title": "Jam Color manipulation functions",
+        "Version": "0.0.28.900",
+        "Authors@R": "person(given=\"James M.\", family=\"Ward\",\nemail=\"jmw86069@gmail.com\", role=c(\"aut\", \"cre\"))",
+        "Maintainer": "James M. Ward <jmw86069@gmail.com>",
+        "Description": "Jam Color manipulation functions, rainbow categorical colors\nwith varying luminance and chroma, convert vector to colors,\nre-usable named vector of colors for consistency across plots,\nconvert data.frame to color, subsetColors.",
+        "Depends": "R (>= 3.0.0), jamba (>= 0.0.82.900)",
+        "Imports": "colorspace, circlize, cli, dichromat",
+        "Suggests": "ggplot2, shiny",
+        "License": "MIT + file LICENSE",
+        "Encoding": "UTF-8",
+        "LazyData": "true",
+        "Remotes": "github::jmw86069/jamba",
+        "URL": "http://github.com/jmw86069/colorjam",
+        "BugReports": "http://github.com/jmw86069/colorjam/issues",
+        "Roxygen": "list(markdown = TRUE)",
+        "RoxygenNote": "7.2.3",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "colorjam",
+        "RemoteUsername": "jmw86069",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "5c2e6cbfca8f1fecffcb4d526a4af8a00c07c0a1",
+        "GithubRepo": "colorjam",
+        "GithubUsername": "jmw86069",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "5c2e6cbfca8f1fecffcb4d526a4af8a00c07c0a1",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-07-30 18:51:15 UTC; kvaled1",
+        "Author": "James M. Ward [aut, cre]",
+        "Built": "R 4.3.3; ; 2024-07-30 18:51:17 UTC; windows"
       }
     },
     "colorspace": {
@@ -2417,6 +2549,44 @@
         "Date/Publication": "2022-12-20 10:00:13 UTC",
         "Built": "R 4.3.1; x86_64-w64-mingw32; 2023-07-15 00:27:16 UTC; windows",
         "Archs": "x64"
+      }
+    },
+    "jamba": {
+      "Source": "github",
+      "Repository": null,
+      "description": {
+        "Package": "jamba",
+        "Title": "Jam Base Methods",
+        "Version": "0.0.101.900",
+        "Authors@R": "person(given=\"James M.\", family=\"Ward\",\nemail=\"jmw86069@gmail.com\", role=c(\"aut\", \"cre\"))",
+        "Description": "Jam Base methods. Efficient alphanumeric sort for vector,\nlist, data.frame. Import/export wrappers to Excel xlsx files.\nEfficient operations for row-wise paste, paste or sort of lists.\nEnhanced plot smooth scatter, plot density, image by color.\nConvenient get\nmixedSort, mixedSortDF: efficient alphanumeric sort.\njargs: formatted, colorized function arguments.\nwriteOpenxlsx, readOpenxlsx: Excel export with clean formatting by column.\npasteByRow, pasteByRowOrdered: data.frame to vector, optionally as factor.\ncPaste, cPasteS, cPasteU: efficient paste for list of vectors, optional\nsort and unique.\nsdim, ssdim: formatted summary of dimensions for S3 objects, lists,\nS4 objects by slot, or nested lists.\nvigrep, vgrep, provigrep: value-return, case-insensitive grep,\nprogressive pattern grep.\nplotSmoothScatter: smooth scatter plot with finer detail.\nplotPolygonDensity, plotRidges: plot one or more densities.\nimageDefault: rasterized image plots.\nimageByColors: data.frame to color image.\ngetColorRamp, showColors: versatile color palettes, and display.\nrbindList: list to data.frame without filling empty cells.\nmakeNames, nameVector: configurable unique names assigned to vectors.\nprintDebug: colorized console messaging.",
+        "biocViews": "",
+        "Depends": "R (>= 3.0.0)",
+        "Imports": "colorspace, KernSmooth, farver, colorspace, grDevices",
+        "Suggests": "knitr, rmarkdown, RColorBrewer, viridisLite, crayon,\nmatrixStats, S4Vectors, openxlsx, ComplexHeatmap, testthat (>=\n3.0.0)",
+        "License": "MIT + file LICENSE",
+        "Encoding": "UTF-8",
+        "URL": "http://github.com/jmw86069/jamba",
+        "BugReports": "http://github.com/jmw86069/jamba/issues",
+        "VignetteBuilder": "knitr",
+        "Roxygen": "list(markdown = TRUE)",
+        "RoxygenNote": "7.2.3",
+        "Config/testthat/edition": "3",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "jamba",
+        "RemoteUsername": "jmw86069",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "613b12f394498a02737b30c137b457a6521e4d74",
+        "GithubRepo": "jamba",
+        "GithubUsername": "jmw86069",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "613b12f394498a02737b30c137b457a6521e4d74",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-07-30 18:22:53 UTC; kvaled1",
+        "Author": "James M. Ward [aut, cre]",
+        "Maintainer": "James M. Ward <jmw86069@gmail.com>",
+        "Built": "R 4.3.3; ; 2024-07-30 18:22:55 UTC; windows"
       }
     },
     "janitor": {
@@ -3975,6 +4145,26 @@
         "Built": "R 4.3.1; ; 2023-07-15 01:55:52 UTC; windows"
       }
     },
+    "shape": {
+      "Source": "CRAN",
+      "Repository": "http://cran.rstudio.com",
+      "description": {
+        "Package": "shape",
+        "Version": "1.4.6",
+        "Title": "Functions for Plotting Graphical Shapes, Colors",
+        "Author": "Karline Soetaert <karline.soetaert@nioz.nl>",
+        "Maintainer": "Karline Soetaert <karline.soetaert@nioz.nl>",
+        "Depends": "R (>= 2.01)",
+        "Imports": "stats, graphics, grDevices",
+        "Description": "Functions for plotting graphical shapes\nsuch as ellipses, circles, cylinders, arrows, ...",
+        "License": "GPL (>= 3)",
+        "NeedsCompilation": "no",
+        "Packaged": "2021-05-19 06:02:02 UTC; karlines",
+        "Repository": "CRAN",
+        "Date/Publication": "2021-05-19 07:20:03 UTC",
+        "Built": "R 4.3.0; ; 2023-04-15 00:42:14 UTC; windows"
+      }
+    },
     "shiny": {
       "Source": "CRAN",
       "Repository": "http://cran.rstudio.com",
@@ -4837,7 +5027,7 @@
       "checksum": "be0cf81360e91913176a91179364b8ed"
     },
     "renv.lock": {
-      "checksum": "b6f0180c7b4e532672874dcfde53cc36"
+      "checksum": "1386c5f31829974c007d480e81f5334a"
     }
   },
   "users": null
