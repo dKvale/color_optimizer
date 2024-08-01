@@ -5,11 +5,14 @@
 #devtools::install_github("jmw86069/colorjam")
 #renv::snapshot()
 
+#rsconnect::writeManifest()
+
 #https://cran.r-project.org/web/packages/esquisse/vignettes/shiny-usage.html\
 #library(plyr)
 round_any <- function(x, accuracy, f = round) {
   f(x / accuracy) * accuracy
 }
+source("color_pie.R")
 library(shiny)
 library(tidyverse)
 library(colorspace)
@@ -17,9 +20,9 @@ library(janitor)
 library(chroma)
 library(gt)
 
-library(BiocManager)
-library(BiocVersion)
-library(colorjam)
+#library(BiocManager)
+#library(BiocVersion)
+#library(colorjam)
 
 library(DescTools)
 library(DT)
